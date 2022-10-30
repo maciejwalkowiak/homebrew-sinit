@@ -6,6 +6,7 @@ class Sinit < Formula
   license "MIT"
 
   depends_on "gum"
+  depends_on "gh"
 
   def install
     bin.install "sinit.sh" => "sinit"
